@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+.weather-gif {
+    align-self: start;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 200px; /* Ensure it doesn't exceed container width */
+    border-radius: 10px; /* Optional: add some styling */
+    margin-bottom: 20px; /* Space between the GIF and the next element */
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #2575fc;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+#weather-result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#weather-result p {
+    margin: 5px 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    background-color: #272626;
+    padding: 0px;
+    border-top: 1px solid #ccc;
+}
